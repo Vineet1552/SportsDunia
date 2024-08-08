@@ -1,0 +1,67 @@
+/* NavBar.css */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(86, 89, 255);
+    color: white;
+    height: 4.5rem;
+    align-items: center;
+    /* width: 100%; */
+    max-width: 75rem;
+    position: sticky;
+    margin: 0 auto;
+    top: 0;
+    font-family: sans-serif;   
+}
+
+#logo {
+    margin: 1rem;
+    font-size: 2.2rem;
+    font-weight: 600;   
+    transition: transform 0.3s ease;  
+    color: black;
+}
+
+#logo:hover {
+    transform: scale(1.1);
+}
+
+#pagesUl {
+    display: flex;
+    list-style-type: none;
+}
+#pagesUlLi {
+    font-size: 16px;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+#pagesUlLi.active {
+    color: #3182CE;
+    font-weight: bold;
+}
+
+#linksLogoUl {
+    display: flex;
+    list-style-type: none;
+    color: white;
+}
+#linksLogoUlLi {
+    margin: 0.7rem;
+    cursor: pointer;
+}
+
+#linksLogoUlLi:hover {
+    color: #3182CE;
+}
+
+#linksLogoUl .fa-icon {
+    font-size: 1.5rem;
+}
+
+.custom-link {
+    /* color: white; */
+    /* below color: inherit will take the color from parent element */
+    color: inherit;  
+}

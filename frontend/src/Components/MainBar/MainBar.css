@@ -1,0 +1,64 @@
+.container1 {
+    color: white;
+    width: 100%;
+    max-width: 75rem;
+    margin: 7rem auto 0 auto;
+    display: flex;
+}
+
+#contentSide1 {
+    flex: 1;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    margin: auto;
+}
+
+#spanText {
+    color: Black;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+#slide-in-text {
+    font-size: 1.7rem;
+    margin: 2rem 0 1rem 0;
+    color: black;
+    transform: translateX(-100%);
+    animation: slideIn 2s forwards;
+}
+@keyframes slideIn {
+    to {
+        transform: translateX(0);
+    }
+}
+
+#contentSide2 {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#but-score {
+    color: white;
+    background-color: black;
+    padding: 1.5rem 3rem;
+    border-radius: 2rem;
+    border: 2px solid transparent;
+    animation: sparkle 1.5s infinite;
+    cursor: pointer;
+}
+
+@keyframes sparkle {
+    0% {
+        box-shadow: 0 0 5px 2px rgba(255, 255, 255, 0.5);
+    }
+    50% {
+        box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.8);
+    }
+    100% {
+        box-shadow: 0 0 5px 2px rgba(255, 255, 255, 0.5);
+    }
+}

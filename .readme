@@ -1,0 +1,14 @@
+1. you need to install the nodemodeules for frontend and for backend.
+2. install all the fontawesome fonts. npm i then package name 
+
+- npm i @fortawesome/fontawesome-svg-core
+- npm i @fortawesome/free-brands-svg-icons
+- npm i @fortawesome/free-solid-svg-icons
+- npm i @fortawesome/react-fontawesome
+
+ensure that your fontawesome required packages installed correctly.
+
+3. start the backend server command - nodemon server.js
+4. and for the frontend command - npm run dev
+5. check both server is runing fine or not, backend server will be run on the port 3001 and frontend server will run on the port 5173.
+ 
